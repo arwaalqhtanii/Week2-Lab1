@@ -74,25 +74,23 @@ body {
 
 
 .all-boxes {
-    position: relative;
-    height: 2rem;
+    margin: 20px 0;
     text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 40vw;
+    height: 45vh;
   
 }
 
-
-
-
-
-.box {
+.box{
     width: 6rem;
     height: 4rem;
     position: absolute;
     margin-left: 10%;
+}
     
    
-}
-
 .box:nth-child(1) {
     background-color: #21d167;
 }
